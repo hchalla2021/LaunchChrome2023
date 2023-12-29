@@ -2,7 +2,7 @@ package G;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-public class GLaunch {
+public class chromelaunch {
 @Test
 public void Launchg() {
 		System.out.println("This is dev ops selenium Project 2023");
@@ -13,7 +13,7 @@ public void Launchg() {
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com");
 		String gtitle = driver.getTitle();
-		System.out.println("The google title is: " + gtitle);
+		System.out.println("The google title is : " + gtitle);
 		driver.close();
 	}
 }

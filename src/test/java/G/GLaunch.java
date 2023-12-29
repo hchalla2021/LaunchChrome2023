@@ -16,5 +16,4 @@ public void Launchg() {
 		System.out.println("The google title is: " + gtitle);
 		driver.close();
 	}
-
 }
